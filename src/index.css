@@ -1,0 +1,56 @@
+/* Background styles */
+body {
+  background-image: url("../src/assets/photo-1519681393784-d120267933ba.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+/* GlassMorphism card effect */
+.card,.navbar {
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  background-color: rgba(17, 25, 40, 0.75) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.125) !important;
+}
+
+.dot {
+  height: 10px !important;
+  width: 10px !important;
+}
+
+
+.border-bottom {
+  border-bottom: 1px solid hsla(0,0%,100%,.2)!important;
+}
+
+.user-avatar.bordered {
+  background: hsla(0,0%,100%,.5) !important;
+}
+
+.user-avatar {
+  /* align-items: center; */
+  border-radius: 50% !important;
+  color: #fff !important;
+  display: flex !important;
+  font-weight: 500 !important;
+  height: 2.5rem !important;
+  justify-content: center !important;
+  min-height: 2.5rem !important;
+  min-width: 2.5rem !important;
+  width: 2.5rem !important;
+}
+
+.list-group-item {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: #fff !important;
+}
+
+/* Customize Css */
+.last-border-bottom:last-child{
+  border-bottom: none !important;
+}
